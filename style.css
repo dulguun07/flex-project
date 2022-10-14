@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: pink;
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+}
+img{
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.introduce{
+    padding: 20px
+}
+
+a {
+    text-decoration: none;
+    background-color: black;
+    color: pink;
+    border-radius: 5px;
+}
+a:hover{
+    color:grey;
+}
+
+.button {
+    display: flex;
+    width: 90%;
+    justify-content: end;
+    
+}
